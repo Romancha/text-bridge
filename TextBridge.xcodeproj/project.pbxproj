@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F55640ED2B74C8C7005BCB28 /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = F55640EC2B74C8C7005BCB28 /* KeyboardShortcuts */; };
+		F55640F02B74F1D9005BCB28 /* TextModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55640EF2B74F1D9005BCB28 /* TextModel.swift */; };
+		F5C885E52B70EA7B00AA95CC /* TextPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C885E42B70EA7B00AA95CC /* TextPrinter.swift */; };
+		F5CF9D742B6F7A4900412F0E /* textBridgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CF9D732B6F7A4900412F0E /* textBridgeApp.swift */; };
+		F5CF9D762B6F7A4900412F0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CF9D752B6F7A4900412F0E /* ContentView.swift */; };
+		F5CF9D782B6F7A4A00412F0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5CF9D772B6F7A4A00412F0E /* Assets.xcassets */; };
+		F5CF9D7B2B6F7A4A00412F0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5CF9D7A2B6F7A4A00412F0E /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F55640EF2B74F1D9005BCB28 /* TextModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModel.swift; sourceTree = "<group>"; };
+		F5C885E42B70EA7B00AA95CC /* TextPrinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPrinter.swift; sourceTree = "<group>"; };
+		F5CF9D702B6F7A4900412F0E /* textbridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textbridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CF9D732B6F7A4900412F0E /* textBridgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textBridgeApp.swift; sourceTree = "<group>"; };
+		F5CF9D752B6F7A4900412F0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F5CF9D772B6F7A4A00412F0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5CF9D7A2B6F7A4A00412F0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5CF9D7C2B6F7A4A00412F0E /* textbridge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = textbridge.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5CF9D6D2B6F7A4900412F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55640ED2B74C8C7005BCB28 /* KeyboardShortcuts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F55640EE2B74F1CA005BCB28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F55640EF2B74F1D9005BCB28 /* TextModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F5C885E12B70E81000AA95CC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F5C885E42B70EA7B00AA95CC /* TextPrinter.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F5CF9D672B6F7A4900412F0E = {
+			isa = PBXGroup;
+			children = (
+				F5CF9D722B6F7A4900412F0E /* textbridge */,
+				F5CF9D712B6F7A4900412F0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5CF9D712B6F7A4900412F0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5CF9D702B6F7A4900412F0E /* textbridge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5CF9D722B6F7A4900412F0E /* textbridge */ = {
+			isa = PBXGroup;
+			children = (
+				F55640EE2B74F1CA005BCB28 /* Model */,
+				F5C885E12B70E81000AA95CC /* Services */,
+				F5CF9D732B6F7A4900412F0E /* textBridgeApp.swift */,
+				F5CF9D752B6F7A4900412F0E /* ContentView.swift */,
+				F5CF9D772B6F7A4A00412F0E /* Assets.xcassets */,
+				F5CF9D7C2B6F7A4A00412F0E /* textbridge.entitlements */,
+				F5CF9D792B6F7A4A00412F0E /* Preview Content */,
+			);
+			path = textbridge;
+			sourceTree = "<group>";
+		};
+		F5CF9D792B6F7A4A00412F0E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F5CF9D7A2B6F7A4A00412F0E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5CF9D6F2B6F7A4900412F0E /* textbridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CF9D7F2B6F7A4A00412F0E /* Build configuration list for PBXNativeTarget "textbridge" */;
+			buildPhases = (
+				F5CF9D6C2B6F7A4900412F0E /* Sources */,
+				F5CF9D6D2B6F7A4900412F0E /* Frameworks */,
+				F5CF9D6E2B6F7A4900412F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = textbridge;
+			packageProductDependencies = (
+				F55640EC2B74C8C7005BCB28 /* KeyboardShortcuts */,
+			);
+			productName = textbridge;
+			productReference = F5CF9D702B6F7A4900412F0E /* textbridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5CF9D682B6F7A4900412F0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F5CF9D6F2B6F7A4900412F0E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = F5CF9D6B2B6F7A4900412F0E /* Build configuration list for PBXProject "TextBridge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5CF9D672B6F7A4900412F0E;
+			packageReferences = (
+				F55640EB2B74C8C7005BCB28 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+			);
+			productRefGroup = F5CF9D712B6F7A4900412F0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5CF9D6F2B6F7A4900412F0E /* textbridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5CF9D6E2B6F7A4900412F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CF9D7B2B6F7A4A00412F0E /* Preview Assets.xcassets in Resources */,
+				F5CF9D782B6F7A4A00412F0E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5CF9D6C2B6F7A4900412F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C885E52B70EA7B00AA95CC /* TextPrinter.swift in Sources */,
+				F55640F02B74F1D9005BCB28 /* TextModel.swift in Sources */,
+				F5CF9D762B6F7A4900412F0E /* ContentView.swift in Sources */,
+				F5CF9D742B6F7A4900412F0E /* textBridgeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F5CF9D7D2B6F7A4A00412F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5CF9D7E2B6F7A4A00412F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F5CF9D802B6F7A4A00412F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = textbridge/textbridge.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"textbridge/Preview Content\"";
+				DEVELOPMENT_TEAM = KY6MPSHF75;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Text Bridge";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "@2024 Romancha";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.romancha.textbridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F5CF9D812B6F7A4A00412F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = textbridge/textbridge.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"textbridge/Preview Content\"";
+				DEVELOPMENT_TEAM = KY6MPSHF75;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Text Bridge";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "@2024 Romancha";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.romancha.textbridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5CF9D6B2B6F7A4900412F0E /* Build configuration list for PBXProject "TextBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CF9D7D2B6F7A4A00412F0E /* Debug */,
+				F5CF9D7E2B6F7A4A00412F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5CF9D7F2B6F7A4A00412F0E /* Build configuration list for PBXNativeTarget "textbridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CF9D802B6F7A4A00412F0E /* Debug */,
+				F5CF9D812B6F7A4A00412F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F55640EB2B74C8C7005BCB28 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.17.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F55640EC2B74C8C7005BCB28 /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F55640EB2B74C8C7005BCB28 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F5CF9D682B6F7A4900412F0E /* Project object */;
+}
