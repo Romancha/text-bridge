@@ -22,7 +22,7 @@ This could be the case in scenarios like remote desktop sessions, virtual machin
 - Encode text into base64 format
 
 ## Contributing
-We welcome contributions from the community to enhance ClipSync further.
+We welcome contributions from the community to enhance TextBridge further.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
