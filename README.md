@@ -1,6 +1,6 @@
-![GitHub release (with filter)](https://img.shields.io/github/v/release/Romancha/textbridge)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/romancha/textbridge)
-[![License](https://img.shields.io/badge/license-mit-blue.svg)](https://github.com/Romancha/textbridge/blob/master/LICENSE.md)
+![GitHub release (with filter)](https://img.shields.io/github/v/release/Romancha/text-bridge)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/romancha/text-bridge)
+[![License](https://img.shields.io/badge/license-mit-blue.svg)](https://github.com/Romancha/text-bridge/blob/master/LICENSE.md)
 
 <div align="center">
 	<img src=".github/textbridge-icon256.png" width="256" align="left">
