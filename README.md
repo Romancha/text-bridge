@@ -21,6 +21,9 @@ This could be the case in scenarios like remote desktop sessions, virtual machin
 - Minimize text by removing all spaces and new lines
 - Encode text into base64 format
 
+## Installation
+Download the latest release from the [releases page](https://github.com/Romancha/text-bridge/releases) and drag the app to the Applications folder.
+
 ## Contributing
 We welcome contributions from the community to enhance TextBridge further.
 
